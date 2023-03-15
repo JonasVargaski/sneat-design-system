@@ -1,0 +1,9 @@
+{
+  "name": "@sneat-ui/prettier-config",
+  "version": "0.0.1",
+  "main": "index.json",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.8.4"
+  }
+}

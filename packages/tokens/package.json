@@ -1,0 +1,22 @@
+{
+  "name": "@sneat-ui/tokens",
+  "version": "0.0.1",
+  "description": "Design system tokens",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup ./src/index.ts --format esm,cjs --dts",
+    "dev": "tsup ./src/index.ts --format esm,cjs --dts --watch",
+    "lint": "eslint ./src/**/*.ts --fix"
+  },
+  "license": "MIT",
+  "prettier": "@sneat-ui/prettier-config",
+  "devDependencies": {
+    "@sneat-ui/eslint-config": "*",
+    "@sneat-ui/ts-config": "*",
+    "@sneat-ui/prettier-config": "*",
+    "tsup": "^6.6.0",
+    "typescript": "^4.9.5"
+  }
+}

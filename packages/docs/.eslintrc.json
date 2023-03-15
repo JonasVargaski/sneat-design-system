@@ -1,0 +1,3 @@
+{
+  "extends": "@sneat-ui/eslint-config"
+}
