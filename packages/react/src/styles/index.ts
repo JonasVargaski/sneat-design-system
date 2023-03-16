@@ -1,4 +1,5 @@
 import { createStitches, defaultThemeMap } from '@stitches/react'
+import type * as Stitches from '@stitches/react'
 import {
   colors,
   fontSizes,
@@ -8,7 +9,7 @@ import {
   radii,
   space,
 } from '@sneat-ui/tokens'
-import type * as Stitches from '@stitches/react'
+export * from './extendCssProp'
 
 export const {
   styled,
@@ -72,3 +73,5 @@ export const {
     br: (value: Stitches.ScaleValue<'radii'>) => ({ borderRadius: value }),
   },
 })
+
+export type CssProps = Stitches.CSS<typeof config>
