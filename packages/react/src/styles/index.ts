@@ -70,7 +70,6 @@ export const {
     linearGradient: (value: string) => ({
       backgroundImage: `linear-gradient(${value})`,
     }),
-    br: (value: Stitches.ScaleValue<'radii'>) => ({ borderRadius: value }),
   },
 })
 
